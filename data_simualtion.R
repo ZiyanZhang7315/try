@@ -26,7 +26,6 @@ tr <- function(matrix) {
 #  list(X=X)
 #}
 
-
 ## function data_simulation accpet scale n, m, genotype matrix X and variance component s2_gxg, s2_e as input
 ## output the exact value of trW, trW2 and yTWy and simulated phenotype.
 data_simulation<- function(n, m, s2_gxg, s2_e){
